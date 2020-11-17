@@ -1,0 +1,97 @@
+* {
+    background-color: #ccc;
+    vertical-align: top;
+}
+
+.container {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.nav {
+    display: inline-block;
+    width: 100%;
+    background-color: azure;
+    border-radius: 1.5%;
+    justify-content: space-between;
+    -webkit-box-shadow: 10px 10px 5px #333;
+    -moz-box-shadow: 10px 10px 5px #333;
+    box-shadow: 10px 10px 5px #333;
+    opacity: 0.8;
+}
+
+#name {
+    width: 25%;
+    text-align: center;
+    display: inline-block;
+    background-color: azure;
+}
+
+.aboutMe {
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+    margin-top: 3%;
+    float: right;
+    background-color: azure;
+
+}
+
+.items {
+    width: 18%;
+    display: inline-block;
+    background-color: azure;
+}
+
+.headshot {
+    margin-top: 1%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    border-radius: 1.5%;
+    -webkit-box-shadow: 10px 10px 5px #333;
+    -moz-box-shadow: 10px 10px 5px #333;
+    box-shadow: 10px 10px 5px #333;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.description {
+    text-align: center;
+    padding-top: 3%;
+}
+
+.content {
+    width: 50%;
+    margin-top: 2%;
+    margin-right: 3%;
+    text-align: center;
+    float: right;
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+    padding-top: 3%;
+}
+
+.linkedLogo {
+    margin-top: 1.5%;
+    display: inline-block;
+    width: 9%;
+    border-radius: 1.5%;
+    opacity: 0.9;
+}
+
+.gitLogo {
+    margin-top: 1%;
+    display: inline-block;
+    padding-top: 1%;
+    width: 5%;
+    border-radius: 1.5%;
+    opacity: 0.9;
+}
